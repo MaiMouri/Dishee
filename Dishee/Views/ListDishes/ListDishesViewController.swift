@@ -64,25 +64,3 @@ extension ListDishesViewController: UITableViewDelegate, UITableViewDataSource {
     
 }
 
-
-///* Generate Request */
-//func createRequest(route: Route,
-//                   method: Method,
-//                   parameters: [String: Any]? = nil) -> URLRequest {
-//    // code
-//}
-//
-///* Make Request to the Backend */
-//func request<T: Decodable>(route: Route,
-//                   method: Method,
-//                   parameters: [String: Any]? = nil,
-//                           type: T.type,
-//                           complition: ((Result<T, Error>) -> Void)?) {
-//    // code
-//}
-//
-///* Decode Response */
-//func hadleResponse<T: Decodable>(result: Result<Data, Error>?),
-//completion: ((Result<T, Error>) -> Void)? = nil {
-//    //code
-//}
